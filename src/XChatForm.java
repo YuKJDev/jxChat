@@ -60,6 +60,8 @@ public class XChatForm extends JFrame implements ActionListener, KeyListener {
         panel1.add(scrollPane1In, BorderLayout.CENTER);
         scrollPane1.setVisible(true);
         scrollPane1In.setVisible(true);
+        
+
         setContentPane(panel1);
         pack();
         doExecute();
